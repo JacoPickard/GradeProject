@@ -4,7 +4,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         char choice;
         do {
-            numberGradeToLetterGrade(scanner);
+            numToLetter(scanner);
             System.out.print("Do you want to enter another grade? (y/n): ");
             choice = scanner.next().toLowerCase().charAt(0);
         }
@@ -12,7 +12,7 @@ public class Main {
         scanner.close();
         System.out.println("Program ended.");
     }
-    public static void numberGradeToLetterGrade(Scanner scanner) {
+    public static void numToLetter(Scanner scanner) {
         System.out.println("Grading Program");
         System.out.println("Provides letter grade given number grade.");
         System.out.print("Please input a number grade: ");
