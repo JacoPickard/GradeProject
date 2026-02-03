@@ -12,7 +12,6 @@ public class Main {
         scanner.close();
         System.out.println("Program ended.");
     }
-
     public static void numberGradeToLetterGrade(Scanner scanner) {
         System.out.println("Grading Program");
         System.out.println("Provides letter grade given number grade.");
